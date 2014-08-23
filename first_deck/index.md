@@ -19,14 +19,25 @@ knit        : slidify::knit2slides
 
 --- .class #id 
 
-## Algorithm: Bench 1.5 Times Your Body Weight 
-1. Type your body weight in input box
-2. My algorithmn will simple calculate your bench press ability by (Body Weight * 1.5)
+## Welcome to my app FATCA 
+
+This application is based on the FATCA Foreign Financial Institution (FFI) List from the IRS.
+
+Dataset has been obtained from the IRS website and processed as a part of the assignment for the Coursera module: Developing Data Products
+
+Source code is available on my Github.
+
 
 --- .class #id 
 
-## R code for prediction model
-For example: Your weight is 50 kg. Your bench press ability will be 50 * 1.5 = 75 kg.
+## What you can do with this app:
+
+
+Tab named “Data”:
+Slider control widgets: you can adjust the table by limiting the number of entities to consider in the scope of the table
+Check box group widget: you can filter a specific entity category in the scope of the table.
+Tab named “Stats”: ….well not much for the moment, I am still working on it ;)
+Charles
 
 
 ```r
